@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
   s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
-  s.ios.vendored_frameworks = "DemoFramework.framework
+  s.ios.vendored_frameworks = "DemoFramework.framework"
   
   s.source       = { :git => "https://raw.githubusercontent.com/rakeshchakraborty89/TestFramework/master/DemoFramework.podspec", :tag => "1.0.0" }
   
